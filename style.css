@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    background-image: url(assets/img/numbersbg.jpg);
+    background-size: inherit;
+}
+
+header {
+    text-align: center;
+    border-bottom: 5px hidden;
+    box-shadow: 0px 14px 14px black;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#date {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+main {
+    margin: 30px 80px;
+    padding: 40px;
+}
+
+#intro {
+    text-align: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+    background-color:whitesmoke;
+    padding: 30px;
+    border: 3px hidden;
+    box-shadow: 0px 9px 9px black;
+}
+
+#contain {
+    justify-content: center;
+    margin: inherit;
+
+}
+
+#contain::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#contain a{
+    float: left;
+    width: inherit;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    background-color: goldenrod;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s;
+}
+
+#contain a:hover{
+    background-color: darkblue;
+    color: white;
+    transform: scale(1.2);
+}

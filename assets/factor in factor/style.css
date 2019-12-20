@@ -1,0 +1,57 @@
+body {
+    background-color: chocolate;
+}
+#main-contain {
+    background-color: brown;
+    text-align: center;
+    border: 6px solid white;
+    margin: 50px 40px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+#list-factor li{
+    margin: 10px 200px;
+    padding: 10px;
+    width: auto;
+    background-color: white;
+    border: 2px solid black;
+    list-style: none;
+    text-align: left;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+li{
+    margin: 10px 200px;
+    padding: 10px;
+    width: auto;
+    background-color: white;
+    border: 2px solid black;
+    list-style: none;
+    text-align: left;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+footer {
+    margin: 20px 30px;
+}
+
+footer a {
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    background-color: rgb(6, 230, 238);
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+footer a:hover {
+    background-color: rgb(139, 0, 0);
+    color: white;
+    transform: scale(1.2);
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: green;
+}
+#main-contain {
+    background-color: greenyellow;
+    margin: 130px;
+    padding: 45px;
+    border: 20px solid white;;
+    border-radius: 10%;
+}
+
+footer {
+    margin: 20px 30px;
+}
+
+footer a {
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    background-color: rgb(6, 230, 238);
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+footer a:hover {
+    background-color: rgb(139, 0, 0);
+    color: white;
+    transform: scale(1.2);
+}
