@@ -10,6 +10,11 @@ body {
     padding: 20px;
 }
 
+#main-contain p {
+    margin: inherit;
+    word-break: break-word;
+}
+
 #list-factor li{
     margin: 10px 200px;
     padding: 10px;

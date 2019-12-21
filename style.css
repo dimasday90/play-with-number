@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     background-image: url(assets/img/numbersbg.jpg);
     background-size: inherit;
+    background-attachment: fixed;
 }
 
 header {
